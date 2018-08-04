@@ -1,14 +1,17 @@
+//Parent class vehicle 
 class Vehicle {
 	public void start() {
 		System.out.println("Starting the vehicle");
 	}
 }
 
+//Class Four Wheeler inherits class Vehicle
 class FourWheeler extends Vehicle{
 	public void start() {
 		System.out.println("Starting the four wheeler");
 	}
 }
+
 
 public class VehicleOverride {
 	public static void main(String[] args) {
